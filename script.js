@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         listItem.textContent = taskText;
 
         const removeButton = document.createElement('button');
+
+        
         removeButton.textContent = 'Remove';
         removeButton.className = 'remove-btn';
 
